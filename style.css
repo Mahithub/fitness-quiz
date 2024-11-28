@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: hsla(0, 0%, 5%, 0.863);
+}
+.app{
+    margin: 100px auto 0;
+    display: block;
+    padding: 30px 30px 40px;
+    background-color: rgb(248, 247, 246);
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+h1 {
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    color: hsla(0, 0%, 5%, 0.863);
+    font-weight: bolder;
+}
+.question {
+    margin: 10px auto 10px;
+    font-size: 20px;
+    color: hsla(0, 0%, 5%, 0.863);
+    font-weight: bold;
+}
+.btn {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(248, 247, 246);
+    color: hsla(0, 0%, 5%, 0.863);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#next-btn{
+    text-align: center;
+    background-color: hsla(0, 0%, 5%, 0.863);
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
